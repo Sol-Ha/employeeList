@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    padding-block: 2em !important;
+    color: aliceblue;
+    font-size: 3em!important;
+    background-color: rgb(105, 133, 136);
+    text-align: center;
+}
+
+.btn-group{
+    margin-bottom: 3em;
+}
+
+button{
+    background-color: rgb(105, 133, 136)!important;
+    padding-inline: 3.5em!important;
+}
+
+#btn_ul{
+    background-color: rgb(93, 113, 116)!important;
+    border: 0.1em black solid;
+}
+
+.dropdown-item{
+    padding-inline: 4em!important;
+    color: aliceblue!important;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(93, 113, 116)!important;
+}
+
+/* company card */
+
+h2{
+    padding-block: 1em;
+    padding-inline: 0.5em;
+}
+
+#article1{
+    border: 0.15em  rgb(106, 103, 103) solid;
+    margin-bottom: 2em;
+}
+
+#article_header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    border-bottom: 0.15em  rgb(106, 103, 103) solid;
+
+}
+
+#article_header_title{
+    margin-inline: 0.7em;
+    margin-block: 1em;
+}
+
+#article_header p{
+    font-size: 1.4em;
+    margin-left: 0.8em;
+}
+
+#article_header_img{
+    margin: 2em;
+    width: 10em;
+    border-radius: 30px;
+}
+/* employee card */
+
+
+.card-img-top{
+    margin-inline: 20%!important;
+    border-radius: 0!important;
+}
+
+.article_aside_cardEmployee_div{
+    background: linear-gradient(183deg, rgb(255, 255, 255) 40%, rgb(218, 219, 219) 100%);
+    border: 0.1em black solid;
+    margin: 0.4em;
+    padding: 1em;
+    width: 20em;
+    height: 35em;
+    border-radius: 10px;
+    box-shadow: -1px 10px 10px -1px rgba(100, 100, 100, 0.72);
+}
+
+h4{
+    text-align: center;
+    font-size: 1.8em;
+    margin-block: 0.5em;
+}
+
+.cardEmployee_img{
+    width: 14em;
+    height: 9em;
+    margin-block: 1.5em;
+    margin-inline: 10%;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    font-size: 1.2em;
+    font-weight: 500;
+    list-style: none;
+    margin-block: 0.5em;
+}
